@@ -1,0 +1,103 @@
+
+
+.banner {
+  background: url("https://cdn.mos.cms.futurecdn.net/uPsn9Sja6CMbXfBFCBvS8Y-1200-80.jpg")
+    no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+}
+
+.lingkaran {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;         
+  background-color: #35b2dc; 
+  margin: auto;
+  color: #fff;
+  text-align: center;      
+  position: relative;       
+}
+
+
+.lingkaran i {
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lingkaran img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;        
+}
+
+
+
+.crop-img {
+  object-fit: cover;
+}
+
+/* 5. Styling untuk foto tim */
+.tim img {
+  display: inline-block;
+  width: 150px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;         
+  background-color: #35b2dc; 
+  margin: auto;
+  color: #fff;
+  text-align: center;        
+  position: relative; 
+  width: 250px;
+  border: 10px solid #cccccc;
+   object-fit: cover;
+}
+.tim img:hover {
+      transform: scale(1.035);
+    }
+    
+
+/* 6. Styling untuk tautan sosial berbentuk kotak bulat (tetap kotak) */
+a.social {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 4px;       /* Bisa diganti sesuai keinginan: 0 = kotak sempurna */
+  background-color: #333;
+  line-height: 40px;
+  text-align: center;
+}
+
+/* 7. Logo klien */
+.client img {
+  height: auto;
+  max-height: 50px;
+}
+
+/* 8. Seksi kontak dengan background khusus */
+.kontak {
+  background: url("https://wallpaperaccess.com/full/1867010.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+}
+.card {
+      background-color: #ffffff;
+      border: none;
+      transition: transform 0.3s ease;
+      position: relative;
+    }
+
+    .card:hover {
+      transform: scale(1.035);
+    }
+
